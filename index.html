@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <body id="myPage">
 
-<!-- Side Navigation on click -->
+<!-- Side Navigation on click NOT USING THIS
 <nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none;z-index:2" id="mySidenav">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-teal">Close
     <i class="fa fa-remove"></i>
@@ -20,7 +20,7 @@
   <a href="#">Link 3</a>
   <a href="#">Link 4</a>
   <a href="#)">Link 5</a>
-</nav>
+</nav>-->
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -29,13 +29,12 @@
     <a class="w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   </li>
   <li><a href="#" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-hover-white">Calendar</a></li>
   <li class="w3-hide-small"><a href="#" class="w3-hover-white">Parents</a></li>
   <li class="w3-hide-small"><a href="#" class="w3-hover-white">Riders</a></li>
   <li class="w3-hide-small"><a href="#" class="w3-hover-white">FAQ's</a></li>
   <li class="w3-hide-small"><a href="#" class="w3-hover-white">Races</a></li>
   <li class="w3-hide-small"><a href="#" class="w3-hover-white">Coaches</a></li>
-
-
 <!--not using dropdown menu for now-->
   <!--hide<li class="w3-hide-small w3-dropdown-hover">
     <a href="#" class="w3-hover-white" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>
@@ -52,6 +51,7 @@
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:43px;">
   <ul class="w3-navbar w3-left-align w3-large w3-theme">
+    <li><a href="#">Calendar</a></li>
     <li><a href="#">Parents</a></li>
     <li><a href="#">Riders</a></li>
     <li><a href="#">FAQ's</a></li>
@@ -63,7 +63,7 @@
 <div class="w3-display-container w3-animate-opacity">
   <img class="testimg" src="img/team2016.jpg" alt="teampic" style="width:100%;min-height:350px;max-height:600px;">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Drake HS MTB 2015-16</button>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-xlarge w3-theme w3-hover-teal" title="About the Drake MTB Team">Drake HS MTB 2015-16</button>
   </div>
 </div>
 
@@ -91,34 +91,10 @@
 <h2>Welcome to the online home of the Drake Pirates MTB Team</h2>
 <p>6X California State Champs, 2009 - 2012, 2015-2016 and 10X NorCal High School Mountain Bike League Champs (2004, 2006, 2009, 2010, 2011, 2012, 2013, 2014, 2015 & 2016)</p>
 
-<div class="w3-row"><br>
-
-<div class="w3-quarter">
-  <img src="img/drakeMTBlogo.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Team Calendar</h3>
-  <p>Find out what we are up to</p>
-</div>
-
-<div class="w3-quarter">
-  <img src="img/drakeMTBlogo.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>News Feed</h3>
-  <p>Latest info on the Team</p>
-</div>
-
-<div class="w3-quarter">
-  <img src="img/drakeMTBlogo.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Drake Divas</h3>
-  <p>Latest info on the Drake Divas</p>
-</div>
-
-<div class="w3-quarter">
-  <img src="img/drakeMTBlogo.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Sponsors</h3>
-  <p>Our Sponsors Thank You!</p>
-</div>
-
-</div>
-</div>
+<!--google calendar here-->
+<!--google cal here-->
+<iframe src="https://www.google.com/calendar/embed?src=drakemtb%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+<!--end of the cal-->
 
 <!-- Row -->
 <div class="w3-row-padding w3-padding-64 w3-theme-l1">
@@ -131,47 +107,79 @@
 
 <div class="w3-quarter">
 <div class="w3-card-2 w3-white">
-  <img src="img/otis+sarah.jpg" alt="Vernazza" style="width:100%">
+  <img src="img/jmiller.jpg" alt="jim-miller" style="width:100%">
   <div class="w3-container">
-  <h3>Captians</h3>
+  <h3>Jim Miller Memorial Fund</h3>
   <h4>Captians and Ride leaders</h4>
+  <!--<p>Blablabla</p>
   <p>Blablabla</p>
   <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
+  <p>Blablabla</p> -->
   </div>
   </div>
 </div>
 
 <div class="w3-quarter">
 <div class="w3-card-2 w3-white">
-  <img src="img/divas.jpg" alt="Cinque Terre" style="width:100%">
+  <img src="img/divas.jpg" alt="Drake Divas" style="width:100%">
   <div class="w3-container">
   <h3>Divas</h3>
   <h4>Our Girls Team</h4>
+<!--  <p>Blablabla</p>
   <p>Blablabla</p>
   <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
+  <p>Blablabla</p> -->
   </div>
   </div>
 </div>
 
 <div class="w3-quarter">
 <div class="w3-card-2 w3-white">
-  <img src="img/vol.jpg" alt="Monterosso" style="width:100%">
+  <img src="img/vol.jpg" alt="Volunteers Pic" style="width:100%">
   <div class="w3-container">
   <h3>Volunteers</h3>
   <h4>How to Help</h4>
+<!--  <p>Blablabla</p>
   <p>Blablabla</p>
   <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
+  <p>Blablabla</p> -->
   </div>
   </div>
 </div>
 
 </div>
+
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="img/nor-cal.jpg" alt="Boss" style="width:45%" class="w3-square w3-hover-opacity">
+  <h3>Nor Cal Racing</h3>
+  <p>Click here for more info on the legue</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="img/nica.png" alt="Boss" style="width:45%" class="w3-square w3-hover-opacity">
+  <h3>NICA</h3>
+  <p>Latest info on the Team</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="img/news.png" alt="Boss" style="width:45%" class="w3-square w3-hover-opacity">
+  <h3>News Feed</h3>
+  <p>Latest info on the Team</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="img/drakeMTBlogo.png" alt="Boss" style="width:45%" class="w3-square w3-hover-opacity">
+  <h3>Sponsors</h3>
+  <p>Our Sponsors Thank You!</p>
+</div>
+
+</div>
+</div>
+
+
 
 <!-- Container -->
 <!--dont need this either
@@ -274,9 +282,7 @@
     </div>
   </div>
 </div> -->
-<!--google calendar here-->
-<!--google cal here-->
-	<iframe src="https://www.google.com/calendar/embed?src=drakemtb%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+
 <!-- Google Maps -->
 <!--no map
 <div id="googleMap" style="width:100%;height:420px;"></div>
@@ -323,7 +329,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   </div>
 </footer>
 
-<!-- Script For Side Navigation -->
+<!-- Script For Side Navigation NOT using this...
 <script>
 function w3_open() {
     var x = document.getElementById("mySidenav");
@@ -346,7 +352,7 @@ function openNav() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-</script>
+</script> -->
 
 </body>
 </html>
